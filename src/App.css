@@ -1,7 +1,19 @@
 .App {
   text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  flex-direction: column;
+  /* width:700px; */
+  row-gap: 40px;
 }
-
+.Months-dd{
+  width:140px
+}
+.danger{
+  color:red
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
